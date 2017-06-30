@@ -18,6 +18,7 @@ body, html {
     overflow: scroll;
     font-size: 16px;
     background-color: #E3E3E3;
+/*    background-color: #f2f2f2;*/
 }
 
 body {
@@ -29,6 +30,11 @@ body {
 
 a {
     text-decoration: none;
+}
+
+body div {
+    box-shadow: 0.1rem 0.1rem 0.2rem 0 rgba(0, 0, 0, 0.2);
+    border-radius: 0.2rem;
 }
 
 .actions, .my_feed, .leaderboard {
@@ -92,6 +98,7 @@ a {
     height: 100%;
     margin: 0;
     padding: 0;
+    box-shadow: none;
 }
 
 .menu a {
@@ -109,11 +116,11 @@ a {
 /* Actions Bar */
 /*-------------*/
 .actions {
-    width: 15%;
+    width: 13%;
     background-color: white;
     position: fixed;
     overflow: auto;
-    margin-top: 3rem;
+    margin-top: 2.9rem;
     margin-left: 5%;
     box-shadow: 0.4rem 0.4rem 0.4rem 0 rgba(0, 0, 0, 0.2);
     border-top: 0;
@@ -180,9 +187,6 @@ a {
 /*------*/
 /* Main */
 /*------*/
-.main {
-    margin-bottom: 1rem;
-}
 
 .buttons {
     display: block;
@@ -193,6 +197,7 @@ a {
     margin-top: 3rem;
     margin-left: 20%;
     margin-right: 10%;
+    margin-bottom: 1rem;
     background-color: white;
     padding: 0;
 }
@@ -212,10 +217,16 @@ a {
     border-radius: 0.5rem;
 }
 
+.buttons img {
+    display: inline;
+    height: 4rem;
+    width: auto;
+    border-radius: 5rem;
+}
+
 #harmonize {
     font-size: 5rem;
     margin: 2rem 0;
-    background-color: gold;
 }
 
 #sub_lyrics, #sub_music {
